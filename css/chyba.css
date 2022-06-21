@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #334756;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img {
+  width: 400px;
+}
+
+h1 {
+  color: #F0A500;
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-family: "Dosis", sans-serif;
+}
+
+.wrong a {
+  color: #F0A500;
+}/*# sourceMappingURL=chyba.css.map */

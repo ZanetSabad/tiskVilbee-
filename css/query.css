@@ -1,0 +1,228 @@
+@media only screen and (max-width: 1400px) {
+  .logo-line {
+    height: 80px;
+  }
+
+  .logo {
+    width: 80px;
+    margin-left: 100px;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+
+  nav li {
+    line-height: 80px;
+    margin: -5px 30px;
+  }
+
+  .ham {
+    margin-left: 550px;
+  }
+
+  .color {
+    height: 120px;
+  }
+
+  .nazev {
+    font-size: 100px;
+    margin-top: 70px;
+  }
+
+  .name {
+    font-size: 80px;
+    margin-top: 55px;
+  }
+
+  .subtitle-list {
+    left: 410px;
+    top: 260px;
+    color: #082032;
+  }
+
+  .subtitle-list li {
+    font-size: 20px;
+  }
+
+  .motto {
+    margin-top: 130px;
+    margin-left: 750px;
+    padding-left: 90px;
+    font-size: 30px;
+  }
+
+  .btnintroduction:link,
+.btnintroduction:visited {
+    font-size: 15px;
+    margin-top: 130px;
+    margin-left: 90px;
+    padding: 10px 25px;
+  }
+
+  .btn-index:link,
+.btn-index:visited {
+    font-size: 15px;
+    margin-top: 200px;
+    margin-left: 90px;
+    padding: 10px 25px;
+  }
+
+  .bee {
+    width: 80px;
+    top: 110px;
+    left: 756px;
+  }
+
+  .bee1 {
+    width: 60px;
+    margin-top: 260px;
+    left: 130px;
+  }
+
+  .color {
+    height: 130px;
+  }
+
+  .big-menu {
+    height: 1000px;
+    margin-top: -110px;
+  }
+
+  .blog-top {
+    margin-right: 142px;
+  }
+
+  .blog-bottom {
+    margin-top: 20px;
+    margin-left: 142px;
+  }
+
+  .box1 {
+    width: 280px;
+    height: 300px;
+  }
+
+  .box2 {
+    width: 280px;
+    height: 300px;
+  }
+
+  .box3 {
+    width: 280px;
+    height: 300px;
+  }
+
+  .box4 {
+    width: 280px;
+    height: 300px;
+  }
+
+  .box5 {
+    width: 280px;
+    height: 300px;
+  }
+
+  .box6 {
+    width: 280px;
+    height: 300px;
+  }
+
+  .btn:link,
+.btn:visited {
+    top: 50%;
+    font-size: 22px;
+    padding: 15px 30px;
+  }
+
+  .card0 {
+    width: 300px;
+    height: 320px;
+    margin-left: 155px;
+  }
+
+  .card1 {
+    width: 300px;
+    height: 320px;
+    margin-left: 500px;
+  }
+
+  .card2 {
+    width: 300px;
+    height: 320px;
+    margin-left: 850px;
+  }
+
+  .card3 {
+    width: 300px;
+    height: 320px;
+    margin-top: 470px;
+    margin-left: 325px;
+  }
+
+  .card4 {
+    width: 300px;
+    height: 320px;
+    margin-top: 470px;
+    margin-left: 675px;
+  }
+
+  .card0 .details p,
+.card1 .details p,
+.card2 .details p,
+.card3 .details p,
+.card4 .details p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .here {
+    font-size: 18px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .help {
+    margin-left: 35%;
+  }
+
+  .production {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .DTisk {
+    text-align: center;
+  }
+
+  .price p {
+    padding: 0px 10px;
+  }
+
+  .article-member-1 {
+    font-size: 10px;
+    padding: 50px;
+  }
+
+  .about-print h1 {
+    margin-top: -30px;
+    font-size: 25px;
+  }
+
+  .about-print p {
+    width: 70%;
+    font-size: 18px;
+    margin-left: 30px;
+  }
+
+  .video {
+    width: 450px;
+    height: 300px;
+  }
+
+  .box {
+    padding-top: 180px;
+  }
+}/*# sourceMappingURL=query.css.map */

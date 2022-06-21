@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+// ******************************************Mixiny, atd.****************
+$main-color: #F0A500;
+$main-color1: #082032;
+$main-color2: #334756;
+$main-color3: #f0a400af;
+
+
+@mixin box-sluzby{
+    position: absolute;
+    margin-top: 200px;
+    width: 380px;
+    height: 400px;
+    background: #082032;
+    overflow: hidden;
+    cursor: pointer;
+    clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0% 80%, 0% 20%);
+    
+}
+// ***********************************Header
+.header{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    background: $main-color;
+    background: linear-gradient(0deg, #ffebeb6e 3%, #FFEDED6e 75%), 
+        url(../img/hl/foto10.jpg);
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.logo-line{
+    height: 100px;
+    background-color: $main-color;
+    border-bottom: 4px solid $main-color3;
+}
+
+.menu{
+    position: relative;
+}
+
+.menu-ul{ 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -70px;    
+}
+
+.menu-li{
+    display: inline-block;
+    line-height: 80px;
+    margin: -5px 30px;    
+}
+
+.menu-a{
+    color: $main-color1;
+    text-decoration: none;
+    
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 10px;
+    -webkit-any-link: $main-color2;
+    transition: all 0.3s;    
+}
+
+.menu-a:hover{
+    color: whitesmoke;
+    background-color: $main-color1;
+    text-decoration: underline;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: 400;     
+}
+
+.list{
+    position: absolute;
+    right: 0px;    
+    top: -100px;
+    background: linear-gradient(0deg, rgba(255,235,235,0.6334908963585435) 59%, rgba(240,165,0,0.7455357142857143) 89%);
+    width:100%;
+    height: 100px;
+    text-align: center;
+    transition: all .5s;
+    z-index: -1;
+}
+
+.list-li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0px auto;
+    padding-left: 80px;
+    text-align: center;
+
+}
+
+.list-a{
+    color: $main-color1;
+    text-decoration: none;
+    
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: all 0.3s;
+    // border: 2px solid $main-color1;
+}
+
+.ham{
+    width: 45px;  
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.icon-facebook{
+    width: 32px;
+    position: absolute;
+    right: 60px;
+    top: 30px;
+}
+
+.icon-instagram{
+    width: 25px;
+    position: absolute;
+    right: 100px;
+    top: 33px;
+}
+
+.workOnWeb{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(224, 53, 53);
+
+}
+
+.workOnWeb p{
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.nazev{
+    font-size: 150px;
+    font-family: 'Fuzzy Bubbles', cursive;
+     margin-top: 150px;
+    text-align: center;
+    color: $main-color1;
+    letter-spacing: 5px;    
+}
+
+
+.logo{
+    width: 100px;
+    margin-left: 100px;
+}
+
+.btn:link,
+.btn:visited{
+    position: absolute;
+    font-size: 22px;
+    
+    // margin-top: 490px;
+    // margin-left: 250px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 15px 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: $main-color1;
+    font-weight: 700;
+    border: 4px solid $main-color1;
+    border-radius: 10px;
+    background-color: $main-color;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.btn a:hover{
+    transform: translateY(-4px);
+    box-shadow: 10px 10px 20px $main-color1;
+    transition: all .3s;
+}
+
+.btn a:active{
+    transform: translateY(-1px);
+    box-shadow: 5px 5px 10px $main-color1;
+    transition: all .3s;
+}
+
+// ***************************************************Main
+.color{
+    height: 140px;
+    background: linear-gradient(180deg, rgba(255,205,69,0.6474964985994398) 42%, rgba(255,205,69,1) 86%); 
+    margin-top: -100px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); 
+    
+}
+
+.big-menu{
+    width: 100%;
+    background: linear-gradient(0deg, #334756 45%, #334756 95%);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    height: 1200px;
+    margin-top: -110px;    
+}
+
+.card0{
+    @include box-sluzby;
+    margin-left: 355px;    
+
+}
+
+.card1{
+    @include box-sluzby;
+    margin-left: 775px;
+}
+
+.card2{
+    @include box-sluzby;
+    margin-left: 1195px;   
+}
+
+.card3{
+    @include box-sluzby;
+    // height: 350px;
+    margin-top: 535px;
+    margin-left: 565px;   
+}
+
+.card4{
+    @include box-sluzby;
+    // height: 400px;
+    margin-top: 535px;
+    margin-left: 985px;   
+}
+
+
+.print{
+    font-size: 24px;
+    
+}
+
+.card0 .h1Bx,
+.card0 .details,
+.card1 .h1Bx,
+.card1 .details,
+.card2 .h1Bx,
+.card2 .details,
+.card3 .h1Bx,
+.card3 .details,
+.card4 .h1Bx,
+.card4 .details {
+    width: 95%;
+    height: 95%;
+    clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0% 80%, 0% 20%);
+    position: absolute;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F0A500;
+    letter-spacing: 2px;
+    
+}
+
+.card0 .h1Bx,
+.card1 .h1Bx,
+.card2 .h1Bx,
+.card3 .h1Bx,
+.card4 .h1Bx {
+    top: 0;
+    left: 0;
+}
+
+.card0:hover .h1Bx,
+.card1:hover .h1Bx,
+.card2:hover .h1Bx,
+.card3:hover .h1Bx,
+.card4:hover .h1Bx  {
+    top: 0;
+    left: -100%;
+}
+
+.card0 .details,
+.card1 .details,
+.card2 .details,
+.card3 .details,
+.card4 .details {
+    background: #334756;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+.card0:hover .details,
+.card1:hover .details,
+.card2:hover .details,
+.card3:hover .details,
+.card4:hover .details {
+    top: 2%;
+    left: 2.5%;
+}
+
+.card0 .details p,
+.card1 .details p,
+.card2 .details p,
+.card3 .details p,
+.card4 .details p {
+    font-size: 18px;
+    margin: 0px 5px;
+    color: $main-color3;
+    line-height: 25px;
+}
+
+.here{
+    display: inline-block;
+    color: #F0A500;
+    font-size: 18px;
+    margin-left: 120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.help{
+    margin-left: 35%;
+}
+
+.production{
+    display: inline-block;
+    text-decoration: none;
+    color: #F0A500;
+    margin-top: 30px;
+    margin-left: 35px;
+    border: #F0A500 solid 2px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.3s linear;
+}
+
+.production:hover{
+    color: #082032;
+    background: #F0A500;
+    border: #082032 2px solid;
+    box-shadow: 0px 5px 10px #082032;
+    font-weight: 700;
+} 
+
+.DTisk{
+    text-align: center;
+}
+
+.howchoose{
+    text-decoration: none;
+    color: #F0A500;
+    margin-top: 10px;
+    border: #F0A500 solid 2px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.3s linear;
+}
+
+.howchoose:hover{
+    color: #082032;
+    background: #F0A500;
+    border: #082032 2px solid;
+    box-shadow: 0px 5px 10px #082032;
+    font-weight: 700;
+} 
+
+// ***************************Footer
+footer p{
+    height: 160px;
+	text-align: center;
+	font-size: 20px;
+	background-color: $main-color;
+	margin-top: -120px;
+	padding-top: 100px;
+}
