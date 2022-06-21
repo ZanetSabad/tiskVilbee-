@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang=cs">
+<head>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'UA-215528339-1');
+      </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/obj.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/query.css">
+    <title>Objednávka</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-line">
+            <img class="logo" src="img/logo1.png" alt="">
+
+            <nav class="menu">
+                <ul class="menu-ul">
+                    <img src="img/hamburger.png" alt="" class="ham">
+                    <li class="menu-li"><a href="index.html" class="menu-a">Úvod</a></li>
+                    <li class="menu-li"><a href="cenik.html" class="menu-a">Ceník</a></li>
+                    <li class="menu-li"><a href="kontakt.html" class="menu-a">Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <div class="menu-scroll"> 
+                <nav class="window">
+                    <ul class="list">
+                        <li class="list-li"><a href="sluzby.html"class="list-a">Služby</a></li>          
+                        <li class="list-li"><a href="3dtisk.html"class="list-a">3D tisk?</a></li>          
+                        <li class="list-li"><a href="fotogalerie.html"class="list-a">Foto</a></li>          
+                        <li class="list-li"><a href="omne.html"class="list-a">O mně</a></li>               
+                        <li class="list-li"><a href="stream.html"class="list-a">Stream</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <a href="https://www.facebook.com/ELtoys2374/" target="_blank"> <img src="img/facebook-icon.png" alt="ikona Facebooku" class="icon-facebook"></a>
+       
+            <a href="https://www.instagram.com/eltoys.cz/" target="_blank"><img src="img/instagram-icon.png" alt="" class="icon-instagram"></a>
+        </div>
+
+        <div class="workOnWeb">
+            <p>Na stránkách se pracuje...</p>
+        </div>
+
+        <a href="jak_objednat.html" class="btn">Jak objednat</a>
+         
+        <h1 class="nazev">Objednávka</h1>
+    </header>    
+
+    <main>
+        <div class="color">
+
+        </div>
+
+        <section class="big-menu">
+            <form action="mailer.php" method="post" enctype="multipart/form-data" class="box">
+                <h1>Nezávazná Poptávka</h1>
+                <input type="text" name="name" placeholder="Jméno a Příjmení">
+                <input type="text" name="telNumber" placeholder="Telefonní číslo">
+                <input type="email" name="email" placeholder="Email">
+                <select name="typ" id="typ1">
+                    <option class="typ1" value="Typ poptávky">Typ poptávky</option>
+                    <option value="3D tisk na zakázku">3D tisk na zakázku</option>
+                    <option value="Prototypy">Prototypy</option>
+                    <option value="Tisk náhradních dílů">Tisk náhradních dílů</option>
+                </select>
+
+                <select name="typ1" id="typ1" class="doprava">
+                    <option class="typ2" value="Doprava">Doprava</option>
+                    <option value="Zásilkovna">Zásilkovna (69,-)</option>
+                    <option value="Pošta">Pošta (139,-)</option>
+                    <option value="Osobní odběr">Osobní odběr v Táboře</option>
+                </select>
+
+                <textarea name="message" cols="30" rows="10" placeholder="Poznámka"></textarea>
+                
+                
+                    <div>
+                      <label for="fileToUpload"> Vyberte soubor (PNG, JPG)</label>
+                      <input type="file" id="fileToUpload" name="fileToUpload" accept=".jpg, .jpeg, .png" multiple class="btn-upload">
+                    </div>
+                    <div class="preview">
+                      <p>Aktuálně nejsou vybrané žádné soubory</p>
+                    </div>
+                                    
+                  
+                <input type="submit" value="Odeslat" name="submit" class="submit">
+                
+
+                <!-- <input type="file" name="soubor_1" id="f" class="inputfile" data-multiple-caption="{count} files selected">
+                <label for="soubor_1">
+                  <div class="file_input_popis">Nahrát soubor</div>
+                </label> -->
+                
+                
+            </form>    
+            <!-- </form> 
+            <form action="" class="upload">
+                <label for="fileUpload"></label>
+                <input type="file" id="fileUpload">
+            </form>    -->
+           
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Všechna práva vyhrazena, Žaneta Sabadková, 2022</p>
+    </footer>
+    <script src="script.js"></script>       
+</body>
+</html>
